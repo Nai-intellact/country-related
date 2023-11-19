@@ -18,6 +18,9 @@ const getCountryHTML = country => {
     <div class="country">
      <h2> ${country.name.common}</h2>
      <img src="${country.flags.png}" alt="this is the flag">
+     <p>capital:${country.capital}</p>
+     <p> region:${country.region}</p>
+     <p> sub-region:${country.subregion}</p>
     </div>
     `
 }
